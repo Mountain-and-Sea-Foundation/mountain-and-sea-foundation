@@ -536,6 +536,10 @@ a:focus-visible, .btn:focus-visible {
   text-align: left;
 }
 
+.form-row[hidden] {
+  display: none;
+}
+
 .form-row label {
   font-size: 0.88rem;
   font-weight: 600;
@@ -648,6 +652,30 @@ a:focus-visible, .btn:focus-visible {
   line-height: 1.5;
 }
 
+.donate-mail-box {
+  margin-top: 28px !important;
+  background: var(--planty-offwhite);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--brass);
+  border-radius: 12px;
+  padding: 20px 22px;
+}
+
+.donate-mail-box h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin: 0 0 10px;
+  color: var(--forest-deep);
+}
+
+.donate-mail-box p,
+.donate-mail-box address {
+  margin: 0 0 12px;
+}
+
+.donate-mail-box address:last-child { margin-bottom: 0; }
+
 .contact-email {
   display: inline-block;
   font-family: var(--font-display);
@@ -691,6 +719,16 @@ a:focus-visible, .btn:focus-visible {
 .footer-links span {
   margin: 0 8px;
   color: rgba(255,255,255,0.4);
+}
+
+.footer-contact {
+  font-style: normal;
+}
+
+.footer-ein {
+  margin: 0 0 8px;
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.7);
 }
 
 @media (max-width: 720px) {
