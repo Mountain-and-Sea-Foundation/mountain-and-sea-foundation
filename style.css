@@ -656,7 +656,6 @@ a:focus-visible, .btn:focus-visible {
   margin-top: 28px !important;
   background: var(--planty-offwhite);
   border: 1px solid var(--line);
-  border-left: 4px solid var(--brass);
   border-radius: 12px;
   padding: 20px 22px;
 }
