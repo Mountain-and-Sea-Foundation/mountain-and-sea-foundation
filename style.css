@@ -5,7 +5,7 @@
   --ink: #1B2420;
   --steel: #2C332E;
   --brass: #8F5F24; /* darkened from #C98A3E for WCAG AA contrast (~5.5:1 on white, was ~2.9:1) */
-  --brass-light: #E0B274; /* unchanged — only used on dark teal surfaces, already ~6.6:1 */
+  --brass-light: #E0B274; /* unchanged - only used on dark teal surfaces, already ~6.6:1 */
   --bg: #F7F7F2;
   --surface: #FFFFFF;
   --line: rgba(27,36,32,0.09);
