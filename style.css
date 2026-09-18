@@ -400,6 +400,8 @@ a:focus-visible, .btn:focus-visible {
 
 .blog-accent {
   color: #BC6221;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .planty-wordmark {
