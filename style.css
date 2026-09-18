@@ -392,14 +392,14 @@ a:focus-visible, .btn:focus-visible {
   flex-shrink: 0;
 }
 
-.blog-card-head {
-  align-items: flex-start;
-  margin-bottom: 8px;
+.blog-icon {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
 }
 
-.blog-logo {
-  height: 40px;
-  width: auto;
+.blog-accent {
+  color: #BC6221;
 }
 
 .planty-wordmark {
